@@ -1,11 +1,8 @@
 ﻿using HRLeaveManagement.Application.DTOs;
 using MediatR;
 
-using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace HRLeaveManagement.Application.Features.Requests.Queries
+namespace HRLeaveManagement.Application.Features.LeaveTypes.Requests.Queries
 {
     public class GetLeaveTypeDetailRequest : IRequest<LeaveTypeDto>
     {
