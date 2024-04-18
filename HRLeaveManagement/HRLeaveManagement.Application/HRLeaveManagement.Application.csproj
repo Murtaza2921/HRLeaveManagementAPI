@@ -14,4 +14,9 @@
     <ProjectReference Include="..\HRLeaveManagement.Domain\HRLeaveManagement.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Features\Handlers\Commands\" />
+    <Folder Include="Features\Requests\Commands\" />
+  </ItemGroup>
+
 </Project>
