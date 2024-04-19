@@ -6,11 +6,12 @@ using System.Text;
 
 namespace HRLeaveManagement.Application.DTOs.LeaveAllcation
 {
-    public class CreateLeaveAllocationDto
+    public class UpdateLeaveAllocationDto : BaseDto
     {
-        public int NumberOfDays {  get; set; }
-        public int LeaveTypeId { get; set; }
-        public int period { get; set; }
-    }
+        public int NumberOfDays { get; set; }
 
+        public int LeaveTypeId { get; set; }
+
+        public int Period { get; set; }
+    }
 }
